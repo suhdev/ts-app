@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.1",
+  "scripts": {
+    "coverage": "jest --coverage --env=jsdom",
+    "pretest": "tslint --project tslint.json",
+    "test": "jest __tests__ --env=jsdom",
+    "posttest": "jest --coverage --env=jsdom"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "fuse-box": "^3.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "mobx": "^5.9.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
